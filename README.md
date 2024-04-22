@@ -36,6 +36,7 @@ MAGNITUDE COMPARATOR
 
   
 PROCEDURE:
+```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -47,10 +48,12 @@ STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in th
 STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
+```
 
 
   VERILOG CODE:
 ENCODER:
+```
 module encoder(d,a,b,c);
 input [7:0]d;
 output a,b,c;
@@ -58,9 +61,11 @@ or(a,d[4],d[5],d[6],d[7]);
 or(b,d[2],d[3],d[6],d[7]);
 or(c,d[1],d[3],d[5],d[7]);
 endmodule
+```
 
 
 DECODER:
+```
 module decoder_8(a,b,c,y);
 input a,b,c; 
 output[7:0]y; 
@@ -73,8 +78,10 @@ and g6(y[5],(a), (~b), (c));
 and g7(y[6], (a), (b), (~c)); 
 and g8(y[7], (a), (b), (c));
 endmodule
-MULTIPLEXER:
+```
 
+MULTIPLEXER:
+```
 module mux(a,b,c,d,s0,s1,y);
 input a,b,c,d,s0,s1;
 output y;
@@ -93,9 +100,10 @@ d5=(in & s2 & ~s1 &s0),
 d6=(in & s2 & s1 &~s0),
 d7=(in & s2 & s1 &s0);
 endmodule
-
+```
 
 MAGNITUDE COMPARATOR:
+```
 module magcomp(a,b,l,g,e);
 input [3:0]a,b;
 output reg l,g,e;
@@ -121,6 +129,7 @@ begin
 end
 end
 endmodule
+```
 
    OUTPUT WAVEFORM:
 ENCODER:
@@ -147,7 +156,8 @@ MAGNITUDE COMPARATOR:
 
 
 RESULT:
-
+```
    Hence ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is stimulated and synthesised using vivado
+```
 
 
