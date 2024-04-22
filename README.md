@@ -146,11 +146,9 @@ MULTIPLXER:
   ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/0f6249b3-ed23-4525-a013-7d066a6f60df)
 
 DEMULTIPLXER:
-
- ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/37f9ad6b-3359-4bfc-9108-c47c9c9d8752)
+   ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/37f9ad6b-3359-4bfc-9108-c47c9c9d8752)
 
 MAGNITUDE COMPARATOR:
-
    ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/ed190d05-cc84-4b3f-bb6f-55dd6a013d48)
 
 
