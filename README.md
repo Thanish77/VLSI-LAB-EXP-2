@@ -1,38 +1,38 @@
 SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
 
-AIM: 
+# AIM: 
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
 
-APPARATUS REQUIRED:
+# APPARATUS REQUIRED:
 Xilinx 14.7
 Spartan6 FPGA
 
-**LOGIC DIAGRAM**
+# LOGIC DIAGRAM
 
-ENCODER
+# ENCODER
 
   ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
-DECODER
+# DECODER
 
   ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
 
-MULTIPLEXER:
+# MULTIPLEXER:
 
    ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/427f75b2-8e67-44b9-ac45-a66651787436)
 
-DEMULTIPLEXER
+# DEMULTIPLEXER
 
   ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/1c45a7fc-08ac-4f76-87f2-c084e7150557)
 
-MAGNITUDE COMPARATOR
+# MAGNITUDE COMPARATOR
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/b2fe7a05-6bf7-4dcb-8f5d-28abbf7ea8c2)
 
 
   
-PROCEDURE:
+# PROCEDURE:
 ```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
@@ -48,8 +48,8 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ```
 
 
-  VERILOG CODE:
-ENCODER:
+  # VERILOG CODE:
+# ENCODER:
 ```
 module encoder(d,a,b,c);
 input [7:0]d;
@@ -61,7 +61,7 @@ endmodule
 ```
 
 
-DECODER:
+# DECODER:
 ```
 module decoder_8(a,b,c,y);
 input a,b,c; 
@@ -77,7 +77,7 @@ and g8(y[7], (a), (b), (c));
 endmodule
 ```
 
-MULTIPLEXER:
+# MULTIPLEXER:
 ```
 module mux(a,b,c,d,s0,s1,y);
 input a,b,c,d,s0,s1;
@@ -99,7 +99,7 @@ d7=(in & s2 & s1 &s0);
 endmodule
 ```
 
-MAGNITUDE COMPARATOR:
+# MAGNITUDE COMPARATOR:
 ```
 module magcomp(a,b,l,g,e);
 input [3:0]a,b;
@@ -128,28 +128,28 @@ end
 endmodule
 ```
 
-   OUTPUT WAVEFORM:
-ENCODER:
+   # OUTPUT WAVEFORM:
+# ENCODER:
  ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/9fbbe069-c067-4bbe-87cf-cc6cd7088a61)
 
      
-DECODER:
+# DECODER:
  ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/f9ef0282-1531-44cf-907f-fa58ee756434)
 
-MULTIPLXER:
+#MULTIPLXER:
  ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/0f6249b3-ed23-4525-a013-7d066a6f60df)
 
-DEMULTIPLXER:
+# DEMULTIPLXER:
    ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/37f9ad6b-3359-4bfc-9108-c47c9c9d8752)
 
-MAGNITUDE COMPARATOR:
+# MAGNITUDE COMPARATOR:
    ![image](https://github.com/Thanish77/VLSI-LAB-EXP-2/assets/161430773/ed190d05-cc84-4b3f-bb6f-55dd6a013d48)
 
 
 
-RESULT:
-```
+# RESULT:
+
    Hence ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is stimulated and synthesised using vivado
-```
+
 
 
