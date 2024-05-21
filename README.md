@@ -39,6 +39,9 @@ VIVADO 2023.2
 ![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/2e8f1810-ca75-4699-9c0b-51048fa99931)
 
  
+
+
+
 **VERILOG CODE**
 ```
 module encoder(a,y);
