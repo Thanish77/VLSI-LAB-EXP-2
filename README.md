@@ -1,11 +1,16 @@
 # EXP.NO.02
 # DATE:27/02/2024
 # SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
+
 # AIM: 
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
+
 # APPARATUS REQUIRED:
 Xilinx 14.7
 Spartan6 FPGA
+
+
+
 # PROCEDURE:
 ```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
