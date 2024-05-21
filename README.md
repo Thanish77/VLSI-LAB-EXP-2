@@ -42,6 +42,9 @@ VIVADO 2023.2
 
 
 
+
+
+
 **VERILOG CODE**
 ```
 module encoder(a,y);
