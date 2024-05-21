@@ -124,7 +124,9 @@ endmodule
 # OUTPUT:
 ![image](https://github.com/THARUN729/VLSI-LAB-EXP-2/assets/161407766/06fa912f-e738-4e4a-a2ca-22e554e2c4d3)
 
+
 RESULT:
-      Hence ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is stimulated and synthesised using vivado
+
+   Hence ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is stimulated and synthesised using vivado
 
 
