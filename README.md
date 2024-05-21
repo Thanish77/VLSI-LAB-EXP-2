@@ -33,18 +33,10 @@ VIVADO 2023.2
 
 **ENCODER**
 
-
 **LOGIC DIAGRAM**
-
 ![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/2e8f1810-ca75-4699-9c0b-51048fa99931)
 
  
-
-
-
-
-
-
 **VERILOG CODE**
 ```
 module encoder(a,y);
@@ -56,14 +48,12 @@ or(y[0],a[6],a[4],a[2],a[0]);
 endmodule
 ```
 **OUTPUT WAVEFORM**
-
 ![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/848b6dee-a959-4f43-bfd8-e2e33eb0cb4c)
 
 
 **DECODER**
 
 **LOGIC DIAGRAM**
-
 ![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/eeaa2ee1-69ed-475d-ba0b-35793e3f6e9c)
 
 
@@ -83,15 +73,13 @@ and(y[7],a[2],a[1],a[0]);
 endmodule
 ```
 **OUTPUT WAVEFORM**
-
 ![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/02b6f72e-c9c4-4098-b2ff-7ef56c9ca106)
 
 
 **MULTIPLEXER**
 
 **LOGIC DIAGRAM** 
- 
-![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/4b929430-dd40-49dd-b429-018c8305a317)
+ ![image](https://github.com/REkha18s/VLSI-LAB-EXP-2/assets/161815097/4b929430-dd40-49dd-b429-018c8305a317)
 
 
 **VERILOG CODE**
